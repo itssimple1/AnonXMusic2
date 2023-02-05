@@ -41,15 +41,15 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         ],
         [
             InlineKeyboardButton(
-                text="❣ sᴜᴩᴩᴏʀᴛ ❣", url=config.SUPPORT_GROUP
+                text="❣ sᴜᴩᴩᴏʀᴛ ❣", url="https://t.me/m_4_musix", 
             ),
             InlineKeyboardButton(
-                text="🥀 ᴍᴀɪɴᴛᴀɪɴᴇʀ 🥀", user_id=OWNER
+                text="🥀 ᴍᴀɪɴᴛᴀɪɴᴇʀ 🥀", url="https://t.me/realsaberxd", 
             )
         ],
         [
             InlineKeyboardButton(
-                text="✨ sᴏᴜʀᴄᴇ ✨", url=config.UPSTREAM_REPO
+                text="✨ sᴏᴜʀᴄᴇ ✨", url="https://t.me/neetjeestars", 
             )
         ],
      ]
